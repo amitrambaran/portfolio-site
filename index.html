@@ -9,6 +9,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/app.css">
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.8/SmoothScroll.min.js"></script>
 
 
 </head>
@@ -34,7 +35,7 @@
                 <a class="navbar-item">
                     Me
                 </a>
-                <a href="#" class="navbar-item">
+                <a href="#portfolio" class="navbar-item">
                     Portfolio
                 </a>
                 <a href="#" class="navbar-item">
@@ -49,6 +50,7 @@
         </div>
     </nav>
 
+    <!--Me-->
     <div class="section">
         <div class="container column is-three-fifths is-centered">
             <div class="content">
@@ -59,29 +61,57 @@
         </div>
     </div>
 
-    <div class="section">
-        <div class="title is-3">
-            Portfolio
-        </div>
-        <div class="card">
-            <div class="card-content">
-                <p class="title is-4">
-                    Automobile Part Database
-                </p>
-                <p>A database created for quality engineers and paintline managers in order to make the process of
-                    identifying and finding information on parts more accessible and efficient. (Done during Magna
-                    Internship)</p>
-                <img src="assets/magna-part-database.png" alt="">
+    <!--Portfolio-->
+    <div class="columns is-mobile is-centered">
+        <div class="section column is-four-fifths" id="portfolio">
+            <div class="title is-3">
+                Portfolio
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <p class="title is-4">
+                        Automobile Part Database
+                    </p>
+                    <p>A database created for quality engineers and paintline managers in order to
+                        make the process of
+                        identifying and finding information on parts more accessible and efficient. (Done during Magna
+                        Internship)</p>
+                    <img src="assets/magna-part-database.png" alt="">
+                </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-content">
-                <p class="title is-4">
-                    Home Library App
-                </p>
-                <p>A library management system with a portal, add/remove books feature, data structure linkage and a
-                    responsive design.</p>
+    </div>
+
+    <div class="columns is-mobile is-centered">
+        <div class="section column is-four-fifths" id="portfolio">
+            <div class="card">
+                <div class="card-content">
+                    <p class="title is-4">
+                        Home Library App
+                        <a href="https://github.com/amitrambaran/visual-stack-simulator"><i class="fab fa-github fa-lg"></i></a>
+                    </p>
+                    <p>A library management system with a portal, add/remove books feature, data structure linkage and
+                        a
+                        responsive design.</p>
                     <img src="assets/smaugs-library.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns is-mobile is-centered">
+        <div class="section column is-four-fifths" id="portfolio">
+            <div class="card">
+                <div class="card-content">
+                    <p class="title is-4">
+                        Home Library App
+                        <a href="https://github.com/amitrambaran/visual-stack-simulator"><i class="fab fa-github fa-lg"></i></a>
+                    </p>
+                    <p>A library management system with a portal, add/remove books feature, data structure linkage and
+                        a
+                        responsive design.</p>
+                    <img src="assets/smaugs-library.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -99,9 +129,11 @@
 
 
     })();
+    ScrollReveal({ reset: true });
     ScrollReveal().reveal('.navbar');
     ScrollReveal().reveal('.section');
     ScrollReveal().reveal('.card');
+    SmoothScroll({ stepSize: 75 });
 </script>
 
 </html>

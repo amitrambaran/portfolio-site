@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 .navbar{
     text-align: center;
 }
@@ -32,4 +37,14 @@ i{
 
 img{
     padding-top: 3%;
+}
+
+.card-center{
+    text-align: center;
+}
+
+p a{
+    float: right;
+
+    align-content: center;
 }
