@@ -2,7 +2,9 @@ html{
     scroll-behavior: smooth;
 }
 
+a{
 
+}
 .navbar{
     text-align: center;
 }
@@ -11,7 +13,7 @@ html{
     color: 	#98FB98;
 }
 
-#blue-text{
+#blue-text, a, #logo{
     color: #00BFFF
 }
 
@@ -28,23 +30,24 @@ html{
 }
 
 .subtitle{
-    letter-spacing: 1.5px;
-}
-
-i{
-    padding-right: 50%;
+    letter-spacing: 1.2px;
 }
 
 img{
     padding-top: 3%;
 }
 
-.card-center{
-    text-align: center;
+.card-content{
+    justify-content: center;
+    align-items: center;
 }
 
 p a{
     float: right;
-
     align-content: center;
+}
+
+.card{
+    width: 100%;
+    border: cyan;
 }
