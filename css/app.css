@@ -1,3 +1,31 @@
 .navbar{
     text-align: center;
 }
+
+#green-text{
+    color: 	#98FB98;
+}
+
+#blue-text{
+    color: #00BFFF
+}
+
+#purple-text{
+    color: 	#FF00FF;
+}
+
+#red-text{
+    color: #ff3333;
+}
+
+.navbar{
+    font-size: 1.2rem;
+}
+
+.subtitle{
+    letter-spacing: 1.5px;
+}
+
+i{
+    padding-right: 50%;
+}
