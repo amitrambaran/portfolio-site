@@ -5,7 +5,8 @@
 
     <title>Amit Rambaran</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
 
 </head>
 
@@ -14,8 +15,9 @@
     <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item">
-                <i class="fab fa-artstation"></i>
-            </a>
+                <i class="fab fa-autoprefixer fa-2x"></i>
+                
+             </a>
 
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="myNavbar">
                 <span aria-hidden="true"></span>
@@ -41,16 +43,16 @@
 
 
     <div id="me">
-        
+
     </div>
 </body>
 
 <script>
-    (function(){
+    (function () {
         var burger = document.querySelector(".burger");
-        var nav = document.querySelector("#"+burger.dataset.target);
+        var nav = document.querySelector("#" + burger.dataset.target);
 
-        burger.addEventListener("click", function(){
+        burger.addEventListener("click", function () {
             burger.classList.toggle("is-active");
             nav.classList.toggle("is-active");
         });
@@ -58,4 +60,5 @@
 
     })();
 </script>
+
 </html>
