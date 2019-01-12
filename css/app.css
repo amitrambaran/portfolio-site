@@ -49,6 +49,10 @@ p a{
     margin-bottom: 2%;
 }
 
+.footer{
+padding-bottom: 3rem !important;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .title{
