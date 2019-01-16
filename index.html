@@ -24,8 +24,6 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="icon" type="image/png" href="assets/favicon.ico">
-    <script src="https://unpkg.com/scrollreveal" async></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.8/SmoothScroll.min.js" async></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79014066-4"></script>
@@ -69,7 +67,7 @@
     <div class="section">
         <div class="container column is-two-fifths is-centered">
             <div class="content">
-                <p class="subtitle animated fadeInDown">I'm Amit Rambaran. A <span id="blue-text">web
+                <p class="subtitle animated fadeIn delay-0.9s">I'm Amit Rambaran. A <span id="blue-text">web
                         developer</span> and <span id="blue-text">graphic
                         designer</span> currently living in Toronto. </p>
             </div>
@@ -97,6 +95,19 @@
                                     music industry.
                                     Created with Bootstrap for a simplistic and functional responsive experience.</p>
                                 <img src="assets/sb-site.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columns is-mobile is-centered">
+                        <div class="card">
+                            <div class="card-content">
+                                <p class="title">
+                                    Colour Game Web App
+                                    <a href="https://github.com/amitrambaran/colour-game"><i class="fab fa-github fa-lg"></i></a>
+                                </p>
+                                <p>An RGB colour guessing game with two difficulties, made with HTML/CSS/Javascript</p>
+                                <img src="assets/colour-game.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -181,21 +192,23 @@
         </div>
     </footer>
 
-</body>
+    <script>
+        (function () {
+            var burger = document.querySelector(".burger");
+            var nav = document.querySelector("#" + burger.dataset.target);
+            burger.addEventListener("click", function () {
+                burger.classList.toggle("is-active");
+                nav.classList.toggle("is-active");
+            });
+        })();
+        ScrollReveal({ reset: true });
+        ScrollReveal().reveal('.section');
+        ScrollReveal().reveal('.card');
+        SmoothScroll({ stepSize: 100 });
+    </script>
+    <script src="https://unpkg.com/scrollreveal" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.8/SmoothScroll.min.js" async></script>
 
-<script>
-    (function () {
-        var burger = document.querySelector(".burger");
-        var nav = document.querySelector("#" + burger.dataset.target);
-        burger.addEventListener("click", function () {
-            burger.classList.toggle("is-active");
-            nav.classList.toggle("is-active");
-        });
-    })();
-    ScrollReveal({ reset: true });
-    ScrollReveal().reveal('.section');
-    ScrollReveal().reveal('.card');
-    SmoothScroll({ stepSize: 100 });
-</script>
+</body>
 
 </html>
