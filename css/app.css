@@ -44,6 +44,11 @@ p a{
     margin-bottom: 2%;
 }
 
+.card:hover{
+    transform: scale(1.005);
+    transition: 0.05s;
+}
+
 .footer{
 padding: 1.5rem 1.5rem !important;
 }
