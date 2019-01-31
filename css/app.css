@@ -95,6 +95,9 @@ padding: 1.5rem 1.5rem !important;
     #footer-contact-info{
         font-size: 1rem;
     }
+    #email-text{
+        font-size: 2em;
+    }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -104,6 +107,9 @@ padding: 1.5rem 1.5rem !important;
     }
     #fullstack-text{
         font-size: 1.6em;
+    }
+    #email-text{
+        font-size: 2.2em;
     }
 } 
 
@@ -115,6 +121,9 @@ padding: 1.5rem 1.5rem !important;
     #fullstack-text{
         font-size: 1.7em;
     }
+    #email-text{
+        font-size: 2.4em;
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -124,5 +133,8 @@ padding: 1.5rem 1.5rem !important;
     }
     #fullstack-text{
         font-size: 1.8em;
+    }
+    #email-text{
+        font-size: 2.6em;
     }
 } 
