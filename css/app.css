@@ -78,7 +78,6 @@ padding: 1.5rem 1.5rem !important;
     font-weight: 650;
     display: block;
     text-align: center;
-    font-size: 2em;
 }
 
 .tags{
@@ -87,11 +86,11 @@ padding: 1.5rem 1.5rem !important;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .title{
-        font-size: 1.5rem;
+    #name{
+        font-size: 1.8em;
     }
-    .subtitle{
-        font-size: 2rem;
+    #fullstack-text{
+        font-size: 1.5em;
     }
     #footer-contact-info{
         font-size: 1rem;
@@ -100,30 +99,30 @@ padding: 1.5rem 1.5rem !important;
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .title{
-        font-size: 1.5rem;
+    #name{
+        font-size: 2em;
     }
-    .subtitle{
-        font-size: 2rem;
+    #fullstack-text{
+        font-size: 1.6em;
     }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .title{
-        font-size: 2rem;
+    #name{
+        font-size: 2.5em;
     }
-    .subtitle{
-        font-size: 2.5rem;
+    #fullstack-text{
+        font-size: 1.7em;
     }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .title{
-        font-size: 2.2rem;
+    #name{
+        font-size: 3em;
     }
-    .subtitle{
-        font-size: 2.7rem;
+    #fullstack-text{
+        font-size: 1.8em;
     }
 } 
