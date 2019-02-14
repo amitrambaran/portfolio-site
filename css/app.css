@@ -106,13 +106,19 @@ p a{
     transition: 0.2s;
 }
 
+#email-link{
+    padding-bottom: 0;
+    margin: 0;
+ }
+
+ #badge{
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 15px;
+ }
+
 .footer{
 padding: 1.5rem 1.5rem !important;
-}
-
-#email-link{
-   padding-bottom: 0;
-   margin: 0;
 }
 
 .tags{
