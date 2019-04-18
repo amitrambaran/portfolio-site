@@ -34,6 +34,19 @@ html{
     font-size: 1.2rem;
 }
 
+.button.is-medium{
+    transition: 0.3s;
+}
+
+.button.is-medium:hover{
+    transition: 0.3s;
+}
+
+.navbar-item:hover{
+    transition: 0.3s;
+    color: #00BFFF !important;
+}
+
 .subtitle{
     letter-spacing: 1.2px;
 }
