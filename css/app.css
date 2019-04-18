@@ -1,19 +1,19 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.navbar{
+.navbar {
     text-align: center;
 }
 
-#name{
+#name {
     font-weight: 650;
     display: block;
     text-align: center;
     animation: fadein 1.5s;
 }
 
-#fullstack-text{
+#fullstack-text {
     opacity: 0;
     text-align: center;
     display: block;
@@ -22,36 +22,44 @@ html{
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-#fullstack-text, a, #logo{
+#fullstack-text, a, #logo {
     color: #00BFFF
 }
 
-.navbar{
+.navbar {
     font-size: 1.2rem;
 }
 
-.button.is-medium{
+.button.is-medium {
     transition: 0.3s;
 }
 
-.button.is-medium:hover{
+.button.is-medium:hover {
     transition: 0.3s;
 }
 
-.navbar-item:hover{
+.navbar-item {
+    transition: 0.3s;
+}
+
+.navbar-item:hover {
     transition: 0.3s;
     color: #00BFFF !important;
 }
 
-.subtitle{
+.subtitle {
     letter-spacing: 1.2px;
 }
 
-.github-link{
+.github-link {
     display: block;
     text-align: center;
     font-size: 1.2em;
@@ -59,11 +67,11 @@ html{
     margin-top: 10px;
 }
 
-.codepen{
+.codepen {
     margin-left: 0;
 }
 
-.card{
+.card {
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 30px 30px 30px 30px;
@@ -71,90 +79,93 @@ html{
     text-align: center;
 }
 
-.card-content{
+.card-content {
     justify-content: center;
     align-items: center;
 }
 
-.tags{
+.tags {
     display: flex;
     margin-top: 15px;
     justify-content: center;
     width: 100%;
 }
 
-.card:hover{
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+.card:hover {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     transition: 0.2s;
 }
 
-#email-link{
+#email-link {
     padding-bottom: 0;
     margin: 0;
- }
+}
 
- #badge{
-     display: block;
+#badge {
+    display: block;
     margin: 0 auto;
     margin-bottom: 15px;
- }
+}
 
-.footer{
+.footer {
     padding: 1.5rem 1.5rem !important;
 }
 
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
-    #name{
+    #name {
         font-size: 1.8em;
     }
-    #fullstack-text{
+    #fullstack-text {
         font-size: 1.5em;
     }
-    #footer-contact-info{
+    #footer-contact-info {
         font-size: 1rem;
     }
-    #email-text{
+    #email-text {
         font-size: 2em;
     }
-} 
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 600px) {
-    #name{
+    #name {
         font-size: 2em;
     }
-    #fullstack-text{
+    #fullstack-text {
         font-size: 1.6em;
     }
-    #email-text{
+    #email-text {
         font-size: 2.2em;
     }
-} 
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (min-width: 768px) {
-    #name{
+    #name {
         font-size: 2.5em;
     }
-    #fullstack-text{
+    #fullstack-text {
         font-size: 1.7em;
     }
-    #email-text{
+    #email-text {
         font-size: 2.4em;
     }
-
-} 
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
-    #name{
+    #name {
         font-size: 3em;
     }
-    #fullstack-text{
+    #fullstack-text {
         font-size: 1.8em;
     }
-    #email-text{
+    #email-text {
         font-size: 2.6em;
     }
-} 
+}
