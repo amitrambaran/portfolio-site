@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="icon" type="image/png" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79014066-4"></script>
@@ -62,10 +64,8 @@
                 <a href="#contact" class="navbar-item">
                     Contact
                 </a>
-            </div>
-            <div class="navbar-end">
                 <a class="navbar-item" href="assets/amit-rambaran-resume.pdf">
-                    View Resume
+                    Resume
                 </a>
             </div>
         </div>
@@ -75,8 +75,9 @@
     <div class="section">
         <div class="container column is-two-fifths is-centered">
             <div class="content">
-                <p class="subtitle"><span id="name">Amit Rambaran</span><span id="fullstack-text">Web
-                        Developer</span></p>
+                <p class="subtitle"><span id="name">Amit Rambaran</span></p>
+                <p><span id="summary-text">I am a fullstack web
+                        developer with a passion for clean and functional user experiences.</span></p>
             </div>
         </div>
     </div>
@@ -85,189 +86,198 @@
 
     <div class="section">
         <div class="container" id="portfolio">
-            <div class="title">
+            <div class="title is-2">
                 Portfolio
             </div>
 
 
-            <div class="columns is-mobile is-centered">
-                <div class="card">
-                    <div class="card-content">
-                        <p class="title">
-                            Book Buddy
-                        </p>
-                        <p>An all access hub to keep track of read/receive recommendations on books as well as a
-                            platform for new authors to showcase their work.</p>
-                        <div class="tags">
-                            <span class="tag is-dark">HTML</span>
-                            <span class="tag is-dark">CSS</span>
-                            <span class="tag is-dark">Javascript</span>
-                            <span class="tag is-dark">React</span>
-                            <span class="tag is-dark">AJAX</span>
-                            <span class="tag is-dark">JSON</span>
-                            <span class="tag is-dark">PostgreSQL</span>
-                            <span class="tag is-dark">PHP</span>
-                            <span class="tag is-dark">OpenLibrary API</span>
+            <div class="container">
+                <div class="columns">
+
+                    <div class="column is-one-half">
+                        <div class="card bm--card-equal-height">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://images.unsplash.com/photo-1551189671-d689632527c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                                        alt="weatherme">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title has-text-centered">WeatherMe</p>
+                                <div class="content">
+                                    <p>A dynamic, responsive weather app that utilizes the OpenWeatherMap API to
+                                        display the current weather/five day forecast
+                                        asynchronously.
+                                    </p>
+                                </div>
+                                <div class="tags">
+                                    <span class="tag is-dark">HTML</span>
+                                    <span class="tag is-dark">CSS</span>
+                                    <span class="tag is-dark">Javascript</span>
+                                    <span class="tag is-dark">AJAX</span>
+                                    <span class="tag is-dark">JSON</span>
+                                    <span class="tag is-dark">OpenWeatherMap API</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-footer-item">
+                                    <a href="https://github.com/amitrambaran/weather-app" target="_blank"
+                                        class="button is-medium">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>GitHub</span>
+                                    </a>
+                                </p>
+                                <p class="card-footer-item">
+                                    <a href="assets/weather-app/weather-app.html" target="_blank"
+                                        class="button is-medium">
+                                        <span class="icon">
+                                            <i class="fas fa-link"></i>
+                                        </span>
+                                        <span>Demo</span>
+                                    </a>
+                                </p>
+                            </div>
                         </div>
-                        <img src="assets/book-buddy.png" alt="book buddy app">
-                        <a href="https://github.com/amitrambaran/book-buddy" target="_blank" class="button is-medium">
-                            <span class="icon">
-                                <i class="fab fa-github"></i>
-                            </span>
-                            <span>GitHub</span>
-                        </a>
                     </div>
-                </div>
-            </div>
 
 
-            <div class="columns is-mobile is-centered">
-                <div class="card">
-                    <div class="card-content">
-                        <p class="title">
-                            WeatherMe
-                        </p>
-                        <p>A dynamic, responsive weather app that utilizes the OpenWeatherMap API to display the current
-                            weather/five day forecast asynchronously.</p>
-                        <div class="tags">
-                            <span class="tag is-dark">HTML</span>
-                            <span class="tag is-dark">CSS</span>
-                            <span class="tag is-dark">Javascript</span>
-                            <span class="tag is-dark">AJAX</span>
-                            <span class="tag is-dark">JSON</span>
-                            <span class="tag is-dark">OpenWeatherMap API</span>
+                    <div class="column is-one-half">
+                        <div class="card bm--card-equal-height">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://images.unsplash.com/45/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1057&q=80"
+                                        alt="havermap">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title has-text-centered">HaverMap</p>
+                                <div class="content">
+                                    <p>A geolocation based web app that provides the distance from your current
+                                        location to a
+                                        specified
+                                        location on a visual map.</p>
+                                </div>
+                                <div class="tags">
+                                    <div class="container tags">
+                                        <span class="tag is-dark">HTML</span>
+                                        <span class="tag is-dark">CSS</span>
+                                        <span class="tag is-dark">Javascript</span>
+                                        <span class="tag is-dark">JSON</span>
+                                        <span class="tag is-dark">MapBox API</span>
+                                        <span class="tag is-dark">OpenStreetMap API</span>
+                                        <span class="tag is-dark">Geolocation API</span>
+                                        <span class="tag is-dark">Drag & Drop</span>
+                                        <span class="tag is-dark">Web Worker</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-footer-item">
+                                    <a href="https://github.com/amitrambaran/location-app" target="_blank"
+                                        class="button is-medium">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>GitHub</span>
+                                    </a>
+                                </p>
+                                <p class="card-footer-item">
+                                    <a href="assets/location-app/index.html" target="_blank" class="button is-medium">
+                                        <span class="icon">
+                                            <i class="fas fa-link"></i>
+                                        </span>
+                                        <span>Demo</span>
+                                    </a>
+                                </p>
+                            </div>
                         </div>
-                        <img src="assets/weather-app.png" alt="weatherme weather app">
-                        <a href="https://github.com/amitrambaran/weather-app" target="_blank" class="button is-medium">
-                            <span class="icon">
-                                <i class="fab fa-github"></i>
-                            </span>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="assets/weather-app/weather-app.html" target="_blank" class="button is-medium">
-                            <span class="icon">
-                                <i class="fas fa-link"></i>
-                            </span>
-                            <span>Demo</span>
-                        </a>
                     </div>
+
                 </div>
-            </div>
 
 
-            <div class="columns is-mobile is-centered">
-                <div class="card">
-                    <div class="card-content">
-                        <p class="title">
-                            Automobile Part Database
-                        </p>
-                        <p>A database created for quality engineers and paintline managers to identify parts more
-                            efficiently. (Done
-                            during Magna
-                            Internship)</p>
-                        <div class="tags">
-                            <span class="tag is-dark">HTML</span>
-                            <span class="tag is-dark">CSS</span>
-                            <span class="tag is-dark">Skeleton</span>
-                            <span class="tag is-dark">PHP</span>
-                            <span class="tag is-dark">MSSQL</span>
+
+
+
+                <div class="columns">
+                    <div class="column is-one-half">
+                        <div class="card bm--card-equal-height">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://images.unsplash.com/photo-1535979014625-490762ceb2ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                                        alt="book buddy">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title has-text-centered">TrillaVibes</p>
+                                <div class="content">
+                                    <p>A website created for TRILLA, an upcoming hip-hop/electronic producer in the
+                                        Toronto
+                                        music industry. Deployed on a Vultr instance with Nginx.</p>
+                                </div>
+                                <div class="container tags">
+                                    <span class="tag is-dark">HTML</span>
+                                    <span class="tag is-dark">CSS Keyframes</span>
+                                    <span class="tag is-dark">Javascript</span>
+                                    <span class="tag is-dark">Vultr</span>
+                                    <span class="tag is-dark">Nginx</span>
+                                    <span class="tag is-dark">Let's Encrypt</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-footer-item">
+                                    <a href="https://github.com/amitrambaran/trillavibes" target="_blank"
+                                        class="button is-medium">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>GitHub</span>
+                                    </a>
+                                </p>
+                                <p class="card-footer-item">
+                                    <a href="https://trillavibes.com" target="_blank" class="button is-medium">
+                                        <span class="icon">
+                                            <i class="fas fa-link"></i>
+                                        </span>
+                                        <span>Site</span>
+                                    </a>
+                                </p>
+                            </div>
                         </div>
-                        <img src="assets/magna-part-database.png" alt="magna rollstamp part database">
                     </div>
-                </div>
-            </div>
 
 
-            <div class="columns is-mobile is-centered">
-                <div class="card">
-                    <div class="card-content">
-                        <p class="title">
-                            HaverMap
-                        </p>
-                        <p>A geolocation based web app that provides the distance from your current location to a
-                            specified
-                            location on a visual map.</p>
-                        <div class="container tags">
-                            <span class="tag is-dark">HTML</span>
-                            <span class="tag is-dark">CSS</span>
-                            <span class="tag is-dark">Javascript</span>
-                            <span class="tag is-dark">JSON</span>
-                            <span class="tag is-dark">MapBox API</span>
-                            <span class="tag is-dark">OpenStreetMap API</span>
-                            <span class="tag is-dark">Geolocation API</span>
-                            <span class="tag is-dark">Drag & Drop</span>
-                            <span class="tag is-dark">Web Worker</span>
+                    <div class="column is-one-half">
+                        <div class="card bm--card-equal-height">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://cdn-images-1.medium.com/max/1600/0*82whTlSM0uqVzOSe.jpg"
+                                        alt="book buddy">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title has-text-centered">Rollstamp Database</p>
+                                <div class="content">
+                                    <p>A database created for quality engineers and paintline managers to identify parts
+                                        more efficiently. (Done during Magna
+                                        Internship)
+                                    </p>
+                                </div>
+                                <div class="container tags">
+                                    <span class="tag is-dark">HTML</span>
+                                    <span class="tag is-dark">CSS</span>
+                                    <span class="tag is-dark">Skeleton</span>
+                                    <span class="tag is-dark">PHP</span>
+                                    <span class="tag is-dark">MSSQL</span>
+                                </div>
+                            </div>
                         </div>
-                        <img src="assets/location-app.png" alt="havermap location app">
-                        <a href="https://github.com/amitrambaran/location-app" target="_blank" class="button is-medium">
-                            <span class="icon">
-                                <i class="fab fa-github"></i>
-                            </span>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="assets/location-app/index.html" target="_blank" class="button is-medium">
-                            <span class="icon">
-                                <i class="fas fa-link"></i>
-                            </span>
-                            <span>Demo</span>
-                        </a>
                     </div>
-                </div>
-            </div>
 
-            <div class="columns is-mobile is-centered">
-                <div class="card">
-                    <div class="card-content">
-                        <p class="title">
-                            trillavibes.com
-                        </p>
-                        <p>A website created for TRILLA, an upcoming hip-hop/electronic producer in the Toronto
-                            music industry. Deployed on a Vultr instance with Nginx.</p>
-                        <div class="container tags">
-                            <span class="tag is-dark">HTML</span>
-                            <span class="tag is-dark">CSS Keyframes</span>
-                            <span class="tag is-dark">Javascript</span>
-                            <span class="tag is-dark">Vultr</span>
-                            <span class="tag is-dark">Nginx</span>
-                            <span class="tag is-dark">Let's Encrypt</span>
-                        </div>
-                        <img src="assets/trillavibes.png" alt="trillavibes producer site">
-                        <a href="https://github.com/amitrambaran/trillavibes" target="_blank" class="button is-medium">
-                            <span class="icon">
-                                <i class="fab fa-github"></i>
-                            </span>
-                            <span>GitHub</span>
-                        </a>
-                        <a href="https://trillavibes.com" target="_blank" class="button is-medium">
-                            <span class="icon">
-                                <i class="fas fa-link"></i>
-                            </span>
-                            <span>Site</span>
-                        </a>
-                    </div>
                 </div>
-            </div>
 
-
-            <div class="columns is-mobile is-centered">
-                <div class="card">
-                    <div class="card-content">
-                        <p class="title">
-                            Visionary Recruitment
-                        </p>
-                        <p>A job recruitment Wordpress website created for Visionary Recruitment Inc, a private
-                            contracting
-                            agency based in Brampton.</p>
-                        <div class="container tags">
-                            <span class="tag is-dark">HTML</span>
-                            <span class="tag is-dark">CSS</span>
-                            <span class="tag is-dark">Wordpress</span>
-                            <span class="tag is-dark">PHP</span>
-                            <span class="tag is-dark">Let's Encrypt</span>
-                        </div>
-                        <img src="assets/visionary-recruitment.png" alt="visionary recruitment">
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -275,15 +285,16 @@
 
     <div class="section">
         <div class="container" id="contact">
-            <div class="title">
+            <div class="title is-2">
                 Contact
             </div>
-            <a href="https://www.linkedin.com/in/amitrambaran/"><i class="fab fa-linkedin-in fa-lg">
-                    LinkedIn</i><br><br></a>
-
-            <a href="https://github.com/amitrambaran/"><i class="fab fa-github fa-lg"> GitHub</i><br><br></a>
-            <a href="https://www.behance.net/amitrambaran"><i class="fab fa-behance-square fa-lg">
-                    Behance</i><br><br></a>
+            <div id="contact-links">
+                <a href="https://github.com/amitrambaran/"><i class="fab fa-github fa-lg"> GitHub</i><br><br></a>
+                <a href="https://www.linkedin.com/in/amitrambaran/"><i class="fab fa-linkedin-in fa-lg">
+                        LinkedIn</i><br><br></a>
+                <a href="https://www.behance.net/amitrambaran"><i class="fab fa-behance-square fa-lg">
+                        Behance</i><br><br></a>
+            </div>
         </div>
         <div class="section" id="email-link">
             <div class="subtitle has-text-centered" id="email-text">Interested in starting a project? <a

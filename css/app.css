@@ -2,23 +2,14 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #f3f3f3;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .navbar {
+    background-color: #f3f3f3;
     text-align: center;
-}
-
-#name {
-    font-weight: 650;
-    display: block;
-    text-align: center;
-    animation: fadein 1.5s;
-}
-
-#fullstack-text {
-    opacity: 0;
-    text-align: center;
-    display: block;
-    animation: fadein 2s forwards;
-    animation-delay: 1s;
 }
 
 @keyframes fadein {
@@ -30,20 +21,16 @@ html {
     }
 }
 
-#fullstack-text, a, #logo {
-    color: #00BFFF
+#logo {
+    color: #3e3e3e;
+}
+
+a {
+    color: black;
 }
 
 .navbar {
     font-size: 1.2rem;
-}
-
-.button.is-medium {
-    transition: 0.3s;
-}
-
-.button.is-medium:hover {
-    transition: 0.3s;
 }
 
 .navbar-item {
@@ -52,26 +39,36 @@ html {
 
 .navbar-item:hover {
     transition: 0.3s;
-    color: #00BFFF !important;
+    color: black !important;
+    background-color: #f3f3f3 !important;
 }
 
 .subtitle {
     letter-spacing: 1.2px;
 }
 
-.github-link {
+#name {
+    font-weight: 650;
     display: block;
     text-align: center;
-    font-size: 1.2em;
-    font-weight: 500;
-    margin-top: 10px;
+    animation: fadein 1.5s;
 }
 
-.codepen {
-    margin-left: 0;
+#summary-text {
+    color: #3e3e3e;
+    opacity: 0;
+    text-align: center;
+    display: block;
+    animation: fadein 2s forwards;
+    animation-delay: 1s;
+}
+
+.title.is-2 {
+    color: #4A4A4A;
 }
 
 .card {
+    background-color: #f8f8f8;
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 30px 30px 30px 30px;
@@ -84,6 +81,31 @@ html {
     align-items: center;
 }
 
+.bm--card-equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bm--card-equal-height .card-footer {
+    margin-top: auto;
+}
+
+.button {
+    transition: 0.3s;
+    background-color: #f8f8f8;
+    color: black;
+}
+
+.button:hover {
+    transition: 0.3s;
+}
+
+a.button.is-medium {
+    border: none;
+    margin: 0;
+}
+
 .tags {
     display: flex;
     margin-top: 15px;
@@ -91,9 +113,8 @@ html {
     width: 100%;
 }
 
-.card:hover {
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    transition: 0.2s;
+#contact-links {
+    margin-left: 5px;
 }
 
 #email-link {
@@ -108,6 +129,7 @@ html {
 }
 
 .footer {
+    background-color: #ececec;
     padding: 1.5rem 1.5rem !important;
 }
 
@@ -117,7 +139,10 @@ html {
     #name {
         font-size: 1.8em;
     }
-    #fullstack-text {
+    .title.is-2 {
+        font-size: 2em;
+    }
+    #summary-text {
         font-size: 1.5em;
     }
     #footer-contact-info {
@@ -134,7 +159,10 @@ html {
     #name {
         font-size: 2em;
     }
-    #fullstack-text {
+    .title.is-2 {
+        font-size: 2em;
+    }
+    #summary-text {
         font-size: 1.6em;
     }
     #email-text {
@@ -148,7 +176,10 @@ html {
     #name {
         font-size: 2.5em;
     }
-    #fullstack-text {
+    .title.is-2 {
+        font-size: 2.25em;
+    }
+    #summary-text {
         font-size: 1.7em;
     }
     #email-text {
@@ -162,7 +193,10 @@ html {
     #name {
         font-size: 3em;
     }
-    #fullstack-text {
+    .title.is-2 {
+        font-size: 2.5em;
+    }
+    #summary-text {
         font-size: 1.8em;
     }
     #email-text {
