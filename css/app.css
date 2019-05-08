@@ -12,6 +12,20 @@ body {
     text-align: center;
 }
 
+.content__links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content__links a {
+    transition: 0.3s;
+}
+
+.content__links a:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
 @keyframes fadein {
     from {
         opacity: 0;
@@ -22,11 +36,7 @@ body {
 }
 
 #logo {
-    color: #3e3e3e;
-}
-
-a {
-    color: black;
+    color: #3273dc;
 }
 
 .navbar {
@@ -34,6 +44,7 @@ a {
 }
 
 .navbar-item {
+    color: #3273dc;
     transition: 0.3s;
 }
 
