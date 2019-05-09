@@ -26,6 +26,10 @@ body {
     transform: scale(1.2);
 }
 
+.center {
+    text-align: center;
+}
+
 @keyframes fadein {
     from {
         opacity: 0;
@@ -67,6 +71,8 @@ body {
 
 #summary-text {
     color: #3e3e3e;
+    margin-left: 40px;
+    margin-right: 40px;
     opacity: 0;
     text-align: center;
     display: block;
@@ -105,7 +111,7 @@ body {
 .button {
     transition: 0.3s;
     background-color: #f8f8f8;
-    color: black;
+    color: #3e3e3e;
 }
 
 .button:hover {
@@ -113,8 +119,13 @@ body {
 }
 
 a.button.is-medium {
+    color: #3273dc;
     border: none;
     margin: 0;
+}
+
+a.button.is-medium:hover {
+    color: #3e3e3e;
 }
 
 .tags {
@@ -122,21 +133,6 @@ a.button.is-medium {
     margin-top: 15px;
     justify-content: center;
     width: 100%;
-}
-
-#contact-links {
-    margin-left: 5px;
-}
-
-#email-link {
-    padding-bottom: 0;
-    margin: 0;
-}
-
-#badge {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 15px;
 }
 
 .footer {
@@ -179,6 +175,9 @@ a.button.is-medium {
     #email-text {
         font-size: 2.2em;
     }
+    .fa-3x {
+        font-size: 55px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -196,6 +195,9 @@ a.button.is-medium {
     #email-text {
         font-size: 2.4em;
     }
+    .fa-3x {
+        font-size: 60px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -212,5 +214,8 @@ a.button.is-medium {
     }
     #email-text {
         font-size: 2.6em;
+    }
+    .fa-3x {
+        font-size: 65px;
     }
 }
