@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitrambaran/portfolio-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitrambaran/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/amitrambaran/portfolio-site#readme",
+  "devDependencies": {
+    "jshint": "^2.10.2"
+  }
+}
