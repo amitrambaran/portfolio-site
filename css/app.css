@@ -71,8 +71,7 @@ body {
 
 #summary-text {
     color: #3e3e3e;
-    margin-left: 40px;
-    margin-right: 40px;
+    text-align: center;
     opacity: 0;
     text-align: center;
     display: block;
